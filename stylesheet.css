@@ -1,0 +1,196 @@
+.navbar-brand {
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    margin-right: 15px;
+}
+
+.btn-signin {
+    background-color: black;
+    color: white;
+    padding: 10px 40px;
+}
+
+.btn-signin:hover {
+    background-color: #333;
+    color: white;
+
+}
+
+.change-style {
+
+    font-family: Helvetica;
+    font-size: 28.39px;
+    font-weight: 700;
+    line-height: 36.1px;
+    text-align: center;
+
+
+}
+
+
+.nav-item {
+    position: relative;
+    right: 50%;
+    font-family: Helvetica;
+    font-size: 26.11px;
+    font-weight: 400;
+    line-height: 31.18px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+@media screen and (max-width:800px) {
+    .nav-item a {
+        position: relative;
+        left: 90px;
+    }
+
+    .btn-signin {
+        position: relative;
+        left: 10px;
+    }
+}
+
+
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.hero-content {
+    max-width: 600px;
+    line-height: 80px;
+}
+
+.hero-heading {
+    font-size: 2.5rem;
+    font-weight: bold;
+    font-family: Helvetica;
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 91.99px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.hero-text {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    font-family: Helvetica Light;
+    font-size: 30.17px;
+    font-weight: 400;
+    line-height: 39.53px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+
+}
+
+.btn-cta {
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+}
+
+.btn-cta:hover {
+    background-color: #333;
+}
+
+.hero-image {
+    max-width: 99%;
+}
+
+.feature-card {
+    border: 1px solid #000;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  .feature-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  .feature-card img {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+  }
+  .feature-card h5 {
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  .feature-card p {
+    color: #333;
+    font-size: 14px;
+  }
+   
+.bussiness {
+    display: flex;
+}
+.OUR {
+    width: 374px;
+height: 69px;
+top: 1652px;
+left: 533px;
+gap: 0px;
+opacity: 0px;
+
+}
+
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    padding: 20px;
+  }
+
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+  }
+
+  .card {
+    flex: 1;
+    border: 1px solid #000;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .card .icon {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+
+  .card h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  .card p {
+    color: #555;
+    font-size: 14px;
+    line-height: 1.6;
+  }
